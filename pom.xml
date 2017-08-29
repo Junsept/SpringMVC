@@ -25,6 +25,18 @@
     	<artifactId>spring-webmvc</artifactId>
     	<version>4.3.0.RELEASE</version>
     </dependency>
+        <!-- 添加Log4J依赖 -->    
+    <dependency>  
+      <groupId>log4j</groupId>  
+      <artifactId>log4j</artifactId>  
+      <version>1.2.16</version>  
+    </dependency>  
+      
+    <dependency>  
+       <groupId>org.slf4j</groupId>  
+       <artifactId>slf4j-nop</artifactId>  
+       <version>1.6.4</version>  
+    </dependency>  
   </dependencies>
   
   <build>
